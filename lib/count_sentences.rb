@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.count{|i| i == [.!?]}
+    self.count{|i| i == [.!]}
   end
 end

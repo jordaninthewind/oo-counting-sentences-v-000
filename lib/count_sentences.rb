@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.count {|i| i == (/\w[.?!])}
+    self.count {|i| i == (/\w[.?!]/)}
   end
 end
